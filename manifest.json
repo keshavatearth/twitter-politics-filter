@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Politics Filter",
+  "version": "1.0",
+  "version_name": "dev",
+  "description": "Hides political tweets from your Twitter feed",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://twitter.com/*",
+    "https://x.com/*",
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*", "https://x.com/*"],
+      "js": ["content.js"],
+      "type": "module"
+    }
+  ],
+  "web_accessible_resources": [{
+    "resources": [
+      "config.json",
+      "grading_instructions.txt",
+      "political_analysis.js",
+      "debug_utils.js"
+    ],
+    "matches": ["https://twitter.com/*", "https://x.com/*"]
+  }]
+}
