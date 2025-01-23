@@ -34,11 +34,16 @@ The Tweet Analyzer determines whether a tweet should be blocked based on stringe
    - **Example to Block:**
      - *"Give me ONE good reason to buy a Windows laptop apart from Gaming"* designed to provoke comments without meaningful contribution.
 
-3. **Viral Trends Without Substance:**
+3. **Viral Trends:**
 
    - **Definition:** Sharing or initiating trends or challenges purely for entertainment without educational or cultural significance.
    - **Example to Block:**
+     - *"if you're a man in your 20s trend".
+     - *"posts about immigration in america".
+     - *"2024 recapped" posts.
+     - *"the Chill Guy/Girl trend. Tweets like xyz happened and I am/am not a chill guy etc."
      - *"Mornings like this in Namma Bengaluru🫰🏼"* intended to garner likes for aesthetic appeal without deeper context.
+     - *"any talk about Zepto, Zomato, cloud kitchens etc." a trendy topic on indian twitter that just keeps messing up my feed.
      - *"Marrying a guy who loves IoT means all the switches of the new house will be like this. Running a separate server for all automation of the house. Instructions for me 'do not use' switches 😂😂😂"* - sharing personal anecdote purely for engagement value.
 
 4. **Low-Quality Content:**
@@ -91,6 +96,7 @@ Content that delivers on its promise with factual, insightful, or high-quality m
 
 - **Example Not to Block:**
   - *"Looking for business journalists who have built a business outside of media. Any examples come to mind?"* – A genuine inquiry fostering information exchange.
+  - *"Announcing Exa Websets - a breakthrough toward perfect web search. signup for the waitlist"* - A tweet for a product launch. This is not engagement bait. It's very relevant.
 
 ---
 

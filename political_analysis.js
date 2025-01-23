@@ -1,7 +1,7 @@
 class ContentAnalyzer {
     constructor(apiKey) {
         this.apiKey = apiKey;
-        this.apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-8b:generateContent?key=${this.apiKey}`;
+        this.apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-thinking-exp-01-21:generateContent?key=${this.apiKey}`;
     }
 
     async analyzeContent(text) {
